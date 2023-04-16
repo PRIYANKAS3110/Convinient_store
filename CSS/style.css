@@ -1,0 +1,128 @@
+:root{
+    --yellow:#F9D949;
+    --navy:#070A52;
+    --white:#F0F0F0;
+    --black:#000000;
+    --red:#E21818;
+
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../pic.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: var(--white);
+}
+header a{
+    text-decoration: none;
+    color: var(--black);
+}
+header{
+    display:flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 3em;
+}
+#nav{
+    flex: 4;
+    display:flex;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color: var(--red);
+}
+.maintext{
+    display: flex;
+    flex-direction: column ;
+    height:50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color: var(--navy);
+    font-size: 2.5em;
+    font-weight: bolder;
+
+}
+.tagline2{
+    color: var(--yellow);
+
+}
+.maintext div{
+    margin-top: .75em;
+
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding:.7em;
+    background-color: aqua;
+    color:var(--white);
+    border: 1px solid var(--navy);
+
+}
+.landing1{
+    background-image:url('../pic.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--navy);
+}
+.landing2{
+    background-image:url('../pic.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--red);
+}
+.landing2{
+    background-image:url('../pic.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--red);
+}
+.landing3{
+    background-image:url('../pic.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--navy);
+} 
+.location{
+    background-color: bisque;
+    display: grid;
+}
+.row{
+    display: flex;
+    flex: 1;
+}
+.column{
+    display: flex;
+    flex: 1;
+}
+.categories th{
+    color:var(--red);
+    margin-bottom: .8em;
+    font-size: 1.3em;
+    padding: 1em;
+
+}
+
+
+
+
